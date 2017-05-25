@@ -1,15 +1,19 @@
 {
-  "name": "citytax",
-  "version": "1.0.0",
-  "description": "",
+  "name": "citytax-gps-log-parser",
+  "version": "0.8.5",
+  "description": "GPS Log data parser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "Agustin Kassis",
+    "email": "webmaster@masize.com"
+  },
   "license": "ISC",
   "dependencies": {
     "async": "^2.4.1",
     "bluebird": "^3.5.0"
-  }
+  },
+  "repository": "agustinkassis/citytax-gps-log-parser"
 }
