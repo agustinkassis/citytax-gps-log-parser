@@ -4,7 +4,9 @@
   "description": "GPS Log data parser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": {
     "name": "Agustin Kassis",
@@ -13,7 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "async": "^2.4.1",
-    "bluebird": "^3.5.0"
+    "bluebird": "^3.5.0",
+    "snyk": "^1.316.1"
   },
-  "repository": "agustinkassis/citytax-gps-log-parser"
+  "repository": "agustinkassis/citytax-gps-log-parser",
+  "snyk": true
 }
